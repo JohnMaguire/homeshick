@@ -57,6 +57,7 @@ complete -f -c homeshick -n '__fish_homeshick_needs_command' -a generate -r -d '
 
 # list
 complete -f -c homeshick -n '__fish_homeshick_needs_command' -a list -d 'List cloned castles'
+complete -f -c homeshick -n '__fish_homeshick_needs_command' -a ls -d 'List cloned castles'
 
 # check
 complete -f -c homeshick -n '__fish_homeshick_needs_command' -a check -d 'Check a castle for updates'
